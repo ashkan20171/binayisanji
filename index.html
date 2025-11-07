@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تشخیص رنگ</title>
+</head>
+<body>
+    <div class="headerParent">
+        <div class="timerParent">
+        <span id="timer">
+          15
+        </span>
+        </div>
+        <img src="assets/images/help.png" id="help"/>
+        <h1 class="headerTitle">مربع با رنگ متفاوت رو انتخاب کن</h1>
+      </div>
+      <div class="gridContainer">
+        <!--  <div class="gridRow">-->
+        <!--    <div class="gridCell"></div>-->
+        <!--    <div class="gridCell"></div>-->
+        <!--  </div>-->
+        <!--  <div class="gridRow">-->
+        <!--    <div class="gridCell"></div>-->
+        <!--    <div class="gridCell"></div>-->
+        <!--  </div>-->
+      </div>
+      <div class="scoreParent">
+        <span class="scoreTitle">امتیاز</span>
+        <span id="score">1</span>
+      </div>
+      <div class="scoreParent" style="background-color: #E74C3C">
+        <span class="scoreTitle">خطا</span>
+        <span id="mistake">0</span>
+      </div>
+      <div class="overlay-result-parent" style="display: none">
+        <div class="overlay-result">
+          <div class="result_header">
+            <div style="display: flex; flex-direction: column ; justify-content: center ; align-items: center">
+              <img class="result_title_img" src="http://unique-game.ir/assets/images/optic.png">
+              <span class="result_title">تست بینایی سنجی</span>
+            </div>
+            <div class="result_result_header">
+              <div class="scoreParent">
+                <span class="scoreTitle">امتیاز</span>
+                <span id="score_result">1</span>
+              </div>
+              <div class="scoreParent" style="background-color: #E74C3C">
+                <span class="scoreTitle">خطا</span>
+                <span id="mistake_result">0</span>
+              </div>
+            </div>
+          </div>
+          <div class="animal_card">
+            <h3 class="animal_name">موش کور</h3>
+            <img class="animal_img" src="http://unique-game.ir/assets/images/animals/blind-mouse.jpg">
+            <p class="animal_desc"> خسته نباشی واقعا ، بینایی شما در حد موش کور پیر هست ، هویج بخورید و از خوردن گرمیجات پرهیز
+              کرده و کمتر به تلفن همراه خیره شوید و به دکتر مُراجعه بکنید !</p>
+          </div>
+          <div class="big-button">
+            بازی جدید
+          </div>
+          <div class="big-button" style="background-color: #27AE60">
+            اشتراک نتیجه
+          </div>
+          <div class="div_results">
+            <table class="table_result">
+              <thead>
+              <tr>
+                <th>نام</th>
+                <th>امتیاز</th>
+                <th>خطا</th>
+                <th>کمک</th>
+                <th>مجموع</th>
+              </tr>
+              </thead>
+              <tbody id="table_data">
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+    
+    <script src="levels.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+body {
+  margin: 0
+}
+
+.gridContainer {
+  width: 300px;
+  height: 300px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridRow {
+  flex: 1;
+  display: flex;
+}
+
+.gridCell {
+  flex: 1;
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  /*background: #1ABC9C;*/
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.gridCell:active {
+  border-color: gray;
+}
+
+.headerTitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: Shabnam;
+}
+
+#timer {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: Shabnam;
+  color: white;
+}
+
+.timerParent {
+  border-radius: 50%;
+  width: 9.5rem;
+  height: 4.5rem;
+  margin: 0 0.5rem;
+  background: #16A085;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#help {
+  width: 4rem;
+}
+
+
+.headerParent {
+  display: flex;
+  align-items: center;
+}
+
+.scoreParent {
+  background-color: #E67E22;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-bottom: 0.7rem;
+}
+
+.scoreTitle {
+  font-family: Shabnam;
+  font-size: 1.1rem;
+  margin-left: auto;
+}
+
+#score, #mistake {
+  font-family: Shabnam;
+}
+
+.overlay-result {
+  height: max-content;
+}
+
+.overlay-result-parent {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: white;
+  top: 0;
+  overflow-y: auto;
+}
+
+.result_header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: row-reverse;
+}
+
+.result_title {
+  font-family: Shabnam, serif;
+}
+
+.result_title_img {
+  height: 4rem;
+  width: 4rem
+}
+
+.result_result_header {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.animal_card {
+  background: #ebebeb;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  margin: 0 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.animal_name {
+  font-size: 1.5rem;
+  font-family: shabnam;
+  margin: 0.5rem;
+}
+
+.animal_img {
+  width: 95%;
+  align-self: center;
+  border-radius: 1rem;
+}
+
+.animal_desc {
+  text-align: right;
+  font-family: shabnam, serif;
+  line-height: 1.4rem;
+}
+
+.big-button {
+  background-color: #8E44AD;
+  color: white;
+  font-size: 2rem;
+  font-family: shabnam;
+  text-align: center;
+  border-radius: 0.5rem;
+  margin: 0 1rem 1rem 1rem;
+  cursor: pointer;
+}
+
+.div_results{
+  margin: 0 1rem;
+  background: aliceblue;
+  font-family: shabnam;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.table_result {
+  width : 100%;
+  direction: rtl;
+}
+
